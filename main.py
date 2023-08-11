@@ -117,4 +117,4 @@ def recommend(title: str):
     return {'recommended_movies': recommendations}
 
     top_indices = [i[0] for i in similarity_scores[1:6]]
-    top_movies = movies.iloc[top_indices]dir
+    top_movies = movies.iloc[top_indices]
